@@ -264,7 +264,7 @@ time_start = time.time()
 
 graphs = []
 input_dim, num_time = [], []
-_alpha, = []
+_alpha = []
 datasets = args.datasets.split("+")
 for i, data in enumerate(datasets):
     if args._alpha is None:
