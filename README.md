@@ -4,7 +4,7 @@ This is the pytorch implementation of _**Dynamic Transfer Learning across Graphs
 
 
 ### Datasets
-Please download other datasets from the original papers listed in our paper. And put them under ''./data'' folder
+Please download the datasets from the original paper listed in our paper. And put them under ''./data'' folder
 
 ### Implementation Details
 _**DyTrans**_ is firstly pre-trained on the source dataset for 2000 epochs; then it is fine-tuned on the target dataset for 600 epochs using limited labeled data in each class. We use Adam optimizer with learning rate 3e-3. AUC is used as the evaluation metric.
